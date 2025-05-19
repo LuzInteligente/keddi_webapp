@@ -1,0 +1,114 @@
+.appBar {
+  background-color: rgba(0, 191, 255, 0.95);
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(4px);
+}
+
+
+.toolbar {
+  position: relative;
+  display: flex;             
+  align-items: center;
+  padding: 0 1rem;
+  min-height: 64px;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+}
+
+.menuButton {
+  color: #fff;
+  margin-right: 0.5rem;
+}
+
+.logo {
+  cursor: pointer;
+  font-weight: 700;
+  color: #fff;
+  user-select: none;
+  transition: opacity 0.2s ease;
+}
+.logo:hover {
+  opacity: 0.8;
+}
+
+.centerSection {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1rem;
+}
+
+.navButton {
+  color: #fff;
+  text-transform: none;
+  font-weight: 500;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.navButton:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.rightSection {
+  margin-left: auto;           
+  display: flex;
+  align-items: center;
+}
+
+.avatarButton {
+  background: transparent;   
+  color: #fff;                
+  border-radius: 50%;
+  padding: 0.4rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.avatarButton:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logoutIconButton {
+  margin-right: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.logoutIconButton:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.avatarButton {
+  background: #fff;
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.avatarButton:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.iconButton {
+  background: deepskyblue;      
+  border-radius: 50%;           
+  padding: 0.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconButton:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,78 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url('https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.adduser-paper {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.MuiTextField-root,
+.MuiFormControl-root {
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.MuiInputBase-root input {
+  padding: 12px;
+}
+
+.MuiButton-containedPrimary {
+  background-color: deepskyblue !important;
+  color: white !important;
+  font-weight: 600;
+  text-transform: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #00aaff !important;
+  transform: translateY(-2px);
+}
+
+.adduser-login-text {
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.adduser-login-link {
+  color: deepskyblue;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.adduser-login-link:hover {
+  color: #007acc;
+}
+
+.adduser-login-text {
+    margin-top: 1rem;
+    color: #333;
+}
+
+.adduser-login-link {
+    color: #1976d2;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.adduser-login-link:hover {
+    opacity: 0.8;
+}

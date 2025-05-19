@@ -1,0 +1,66 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.homepage-background {
+  min-height: 100%;
+  width: 100%;
+  background-image: url('https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.homepage-content {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.homepage-title {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+}
+
+/* ÚJ: Gombok konténere, amely középre rendezi őket és ad közéjük hézagot */
+.homepage-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Ez a gombok közötti hely */
+  margin-top: 1.5rem;
+}
+
+.homepage-button {
+  background-color: deepskyblue !important;
+  color: white !important;
+  padding: 0.6rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-transform: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.homepage-button:hover {
+  transform: translateY(-2px);
+}
